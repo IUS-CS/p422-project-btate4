@@ -20,7 +20,7 @@ export class LoginScreenComponent implements OnInit {
 
   onLogin(): void {
     console.log("we are inside of onLogin :)");
-    this.router.navigate(['home']);
+    this.router.navigate(['products']);
     // need to do some validating.
     // if passes go to home, if fails throw error and tell them to try again
   }

@@ -1,0 +1,15 @@
+.products-screen {
+    margin-top:52px;
+    height:100%;
+    width:100%;
+}
+.products-screen__wrapper {
+    width: 80%;
+    height: 100%;
+}
+.products-screen__card {
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgb(214, 213, 213);
+    background-color: rgb(240, 239, 239);
+}

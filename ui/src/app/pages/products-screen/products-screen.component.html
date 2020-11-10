@@ -1,0 +1,13 @@
+<app-nav-bar></app-nav-bar>
+<div class="products-screen">
+  <div
+    class="products-screen__wrapper"
+    fxLayout="row wrap"
+    fxLayoutGap="8px"
+    fxLayoutAlign="flex-start"
+  >
+    <div class="products-screen__card" *ngFor="let product of testingArray">
+      {{ product.name }}
+      </div>
+  </div>
+</div>
