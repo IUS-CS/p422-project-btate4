@@ -1,4 +1,4 @@
-# P422 Project Tate Studio's
+# P422 Project Tate Studio
 
 ###### Quick Overview
 
