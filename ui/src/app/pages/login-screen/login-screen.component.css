@@ -1,0 +1,25 @@
+.login-screen {
+    background-color: black;
+    width: 100%;
+    height:100%;
+    
+}
+.login-screen__modal {
+        height: 600px;
+        width: 600px;
+        background-color:white;
+
+}
+
+.login-screen__createAccount-btn {
+    margin: 10px 0;
+}
+.login-screen__message {
+    margin-top: 10px;
+}
+
+.divider {
+    height: 1px;
+    background-color: black;
+    width: 80%;
+}

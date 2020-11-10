@@ -1,0 +1,29 @@
+<div class="login-screen" fxLayout="column" fxLayoutAlign="center center">
+  <div class="login-screen__modal" fxLayout="column" fxLayoutAlign="center center">
+      <!-- Header -->
+    <div fxLayout="row" fxLayoutAlign="center center">
+      <h1>Login to Tate Studio</h1>
+    </div>
+    <div class="divider"></div>
+    <div fxFlex></div>
+    <!-- Log In Inputs-->
+    <form [formGroup]="form">
+    <div fxLayout="column" fxLayoutAlign="center center">
+        <mat-form-field appearance="outline">
+        <mat-label>Email</mat-label>
+        <input matInput color="primary" type="text" formControlName="email">
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Password</mat-label>
+        <input matInput color="primary" type="text" formControlName="password">
+      </mat-form-field>
+      <button mat-raised-button color="primary" (click)="onLogin()">Log In</button>
+    </div>
+    </form>
+    <div fxFlex></div>
+    <div class="divider"></div>
+    <div fxLayout="column" fxLayoutAlign="center center">
+      <div class="login-screen__message">Join Tate Studio Today.</div>
+      <div><button mat-raised-button color="accent" (click)="onCreateAccount()" class="login-screen__createAccount-btn">Create Account</button></div>
+    </div>
+  </div>

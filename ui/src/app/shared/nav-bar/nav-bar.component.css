@@ -1,0 +1,12 @@
+.nav-bar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed; /* Set the navbar to fixed position */
+  left: 0;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+button {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
