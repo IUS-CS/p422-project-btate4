@@ -16,10 +16,10 @@ An application that will give user the opportunity to buy merchandise from the w
 
 *These are just thoughts of what I want to do, not sure what I promise yet*
 
-##### Things I need to do
+###### Things I need to do
 
-- Need to make mockData... do I have to make an actually database? *done*
-- Need to rename the landing-screen component to product page or something alike. *done*
+- *Need to make mockData... do I have to make an actually database? done*
+- *Need to rename the landing-screen component to product page or something alike. done*
 - Need to make a Profile Page
 - Would like to restructure the app-nav-bar
 - Need to make the login and Create account buttons work as expected
