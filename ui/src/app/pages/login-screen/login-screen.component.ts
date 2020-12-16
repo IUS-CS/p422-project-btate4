@@ -24,7 +24,7 @@ export class LoginScreenComponent implements OnInit {
   onLogin(): void {
     console.log("we are inside of onLogin :)");
     if(true) { //if creds are in DB
-      this.router.navigateByUrl('/profile-page')
+      this.router.navigateByUrl('/products')
       // this.router.navigateByUrl(RoutingComponents.)
     }
   }
