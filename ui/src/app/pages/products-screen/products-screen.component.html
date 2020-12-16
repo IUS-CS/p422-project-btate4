@@ -1,13 +1,15 @@
 <app-nav-bar></app-nav-bar>
 <div class="products-screen">
-  <div
-    class="products-screen__wrapper"
-    fxLayout="row wrap"
-    fxLayoutGap="8px"
-    fxLayoutAlign="flex-start"
-  >
-    <div class="products-screen__card" *ngFor="let product of testingArray">
-      {{ product.name }}
-      </div>
+  <div class="products-screen__wrapper" fxLayout="column" fxLayoutAlign="center center">
+
+    <div class="products-screen__list-header" fxLayout="row" fxLayoutAlign="space-between">
+      <button mat-stroked-button (click)="handleView(ViewStatus.TOPS)">TOPS</button>
+      <button mat-stroked-button (click)="handleView(ViewStatus.BOTTOMS)">BOTTOMS</button>
+      <button mat-stroked-button (click)="handleView(ViewStatus.SHOES)">SHOES</button>
+      <button mat-stroked-button (click)="handleView(ViewStatus.ACCESSORIES)">ACCESSORIES</button>
+    </div>
+    <div class="products-screen__list">
+      <product-view [viewType]="viewStatus"></product-view>
+    </div>
   </div>
 </div>

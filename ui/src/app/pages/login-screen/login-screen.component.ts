@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import {  Router } from '@angular/router';
+import { LoginService } from './login-screen.service';
 
 @Component({
   selector: 'app-login-screen',
@@ -9,7 +10,9 @@ import {  Router } from '@angular/router';
 })
 export class LoginScreenComponent implements OnInit {
   form: FormGroup;
-  constructor( private router: Router) { }
+  constructor(
+    private router: Router
+    ) { }
 
   ngOnInit(): void {
     this.form = new FormGroup({
@@ -20,9 +23,10 @@ export class LoginScreenComponent implements OnInit {
 
   onLogin(): void {
     console.log("we are inside of onLogin :)");
-    this.router.navigate(['products']);
-    // need to do some validating.
-    // if passes go to home, if fails throw error and tell them to try again
+    if(true) { //if creds are in DB
+      this.router.navigateByUrl('/profile-page')
+      // this.router.navigateByUrl(RoutingComponents.)
+    }
   }
 
   onCreateAccount(): void {

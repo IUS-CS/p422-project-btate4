@@ -5,6 +5,7 @@
   left: 0;
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  padding: 0 10px;
 }
 button {
   margin-top: 8px;

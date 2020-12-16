@@ -1,0 +1,18 @@
+<div  fxLayout="row wrap" fxLayoutAlign="space-around">
+  <ng-container *ngFor="let product of productArray">
+    <mat-card>
+      <mat-card-header fxLayout="row" fxLayoutAlign="center center">
+        <mat-card-title>{{product.name}}</mat-card-title>
+      </mat-card-header>
+      <div fxLayout="row" fxLayoutAlign="center center">
+        <img mat-card-image [src]="'../../../assets/' + product.img">
+      </div>
+      <mat-card-content>
+      </mat-card-content>
+      <mat-card-actions fxLayout="row" fxLayoutAlign="center center">
+        <button mat-stroked-button (click)="addToCart(product.id)">ADD TO CART</button>
+      </mat-card-actions>
+    </mat-card>
+  </ng-container>
+
+</div>
