@@ -7,6 +7,7 @@ export const shirtData: GenericProduct[] = [
     name: '100T Shirt',
     img: '100TShirt.JPEG',
     description: '',
+    price: 30
   },
   {
     id: 1,
@@ -14,6 +15,7 @@ export const shirtData: GenericProduct[] = [
     name: 'Louisville Shirt',
     img: 'louisvilleShirt.JPEG',
     description: '',
+    price: 40
   },
   {
     id: 2,
@@ -21,6 +23,7 @@ export const shirtData: GenericProduct[] = [
     name: '100T Long Sleeve Shirt',
     img: '100TLongSleeve.JPEG',
     description: '',
+    price: 25
   },
   {
     id: 3,
@@ -28,6 +31,7 @@ export const shirtData: GenericProduct[] = [
     name: 'River City Shirt',
     img: '100TShirt.JPEG',
     description: '',
+    price: 90
   },
   {
     id: 4,
@@ -35,6 +39,7 @@ export const shirtData: GenericProduct[] = [
     name: 'River City Shirt',
     img: '100TShirt.JPEG',
     description: '',
+    price: 35
   },
   {
     id: 5,
@@ -42,13 +47,15 @@ export const shirtData: GenericProduct[] = [
     name: 'River City Shirt',
     img: '100TShirt.JPEG',
     description: '',
-  },
+    price: 15
+    },
   {
     id: 6,
     productId: 6,
     name: 'River City Shirt',
     img: '100TShirt.JPEG',
     description: '',
+    price: 4
   },
   {
     id: 7,
@@ -56,6 +63,7 @@ export const shirtData: GenericProduct[] = [
     name: 'River City Shirt',
     img: '100TShirt.JPEG',
     description: '',
+    price: 30
   },
   {
     id: 8,
@@ -63,6 +71,7 @@ export const shirtData: GenericProduct[] = [
     name: 'River City Shirt',
     img: '100TShirt.JPEG',
     description: '',
+    price: 33
   }
 ];
 export const shoesData: GenericProduct[] = [
@@ -72,6 +81,7 @@ export const shoesData: GenericProduct[] = [
     name: '100T shoes',
     img: '100TShirt.JPEG',
     description: '',
+    price: 3
   },
   {
     id: 1,
@@ -79,6 +89,7 @@ export const shoesData: GenericProduct[] = [
     name: 'Louisville shoes',
     img: 'louisvilleShirt.JPEG',
     description: '',
+    price: 3
   },
   {
     id: 2,
@@ -86,6 +97,7 @@ export const shoesData: GenericProduct[] = [
     name: '100T Long Sleeve shoes',
     img: '100TLongSleeve.JPEG',
     description: '',
+    price: 3
   },
   {
     id: 3,
@@ -93,6 +105,7 @@ export const shoesData: GenericProduct[] = [
     name: 'River City shoes',
     img: '100TShirt.JPEG',
     description: '',
+    price: 3
   },
   {
     id: 4,
@@ -100,6 +113,7 @@ export const shoesData: GenericProduct[] = [
     name: 'River City shoes',
     img: '100TShirt.JPEG',
     description: '',
+    price: 3
   },
   {
     id: 5,
@@ -107,6 +121,7 @@ export const shoesData: GenericProduct[] = [
     name: 'River City shoes',
     img: '100TShirt.JPEG',
     description: '',
+    price: 3
   },
   {
     id: 6,
@@ -114,6 +129,7 @@ export const shoesData: GenericProduct[] = [
     name: 'River City shoes',
     img: '100TShirt.JPEG',
     description: '',
+    price: 3
   },
   {
     id: 7,
@@ -121,6 +137,7 @@ export const shoesData: GenericProduct[] = [
     name: 'River City shoes',
     img: '100TShirt.JPEG',
     description: '',
+    price: 3
   },
   {
     id: 8,
@@ -128,6 +145,7 @@ export const shoesData: GenericProduct[] = [
     name: 'River City shoes',
     img: '100TShirt.JPEG',
     description: '',
+    price: 3
   }
 ];
 export const bottomData: GenericProduct[] = [
@@ -137,6 +155,7 @@ export const bottomData: GenericProduct[] = [
     name: '100T bottom',
     img: '100TShirt.JPEG',
     description: '',
+    price: 3
   },
   {
     id: 1,
@@ -144,6 +163,7 @@ export const bottomData: GenericProduct[] = [
     name: 'Louisville bottom',
     img: 'louisvilleShirt.JPEG',
     description: '',
+    price: 3
   },
   {
     id: 2,
@@ -151,6 +171,7 @@ export const bottomData: GenericProduct[] = [
     name: '100T Long Sleeve bottom',
     img: '100TLongSleeve.JPEG',
     description: '',
+    price: 3
   },
   {
     id: 3,
@@ -158,6 +179,7 @@ export const bottomData: GenericProduct[] = [
     name: 'River City bottom',
     img: '100TShirt.JPEG',
     description: '',
+    price: 3
   },
   {
     id: 4,
@@ -165,6 +187,7 @@ export const bottomData: GenericProduct[] = [
     name: 'River City bottom',
     img: '100TShirt.JPEG',
     description: '',
+    price: 3
   },
   {
     id: 5,
@@ -172,6 +195,7 @@ export const bottomData: GenericProduct[] = [
     name: 'River City bottom',
     img: '100TShirt.JPEG',
     description: '',
+    price: 3
   },
   {
     id: 6,
@@ -179,6 +203,7 @@ export const bottomData: GenericProduct[] = [
     name: 'River City bottom',
     img: '100TShirt.JPEG',
     description: '',
+    price: 3
   },
   {
     id: 7,
@@ -186,6 +211,7 @@ export const bottomData: GenericProduct[] = [
     name: 'River City bottom',
     img: '100TShirt.JPEG',
     description: '',
+    price: 3
   },
   {
     id: 8,
@@ -193,6 +219,7 @@ export const bottomData: GenericProduct[] = [
     name: 'River City bottom',
     img: '100TShirt.JPEG',
     description: '',
+    price: 3
   }
 ];
 export const accessoriesData: GenericProduct[] = [
@@ -202,6 +229,7 @@ export const accessoriesData: GenericProduct[] = [
     name: '100T  accessories',
     img: '100TShirt.JPEG',
     description: '',
+    price: 3
   },
   {
     id: 1,
@@ -209,6 +237,7 @@ export const accessoriesData: GenericProduct[] = [
     name: 'Louisville accessories',
     img: 'louisvilleShirt.JPEG',
     description: '',
+    price: 3
   },
   {
     id: 2,
@@ -216,6 +245,7 @@ export const accessoriesData: GenericProduct[] = [
     name: '100T Long Sleeve accessories',
     img: '100TLongSleeve.JPEG',
     description: '',
+    price: 3
   },
   {
     id: 3,
@@ -223,6 +253,7 @@ export const accessoriesData: GenericProduct[] = [
     name: 'River City accessories',
     img: '100TShirt.JPEG',
     description: '',
+    price: 3
   },
   {
     id: 4,
@@ -230,6 +261,7 @@ export const accessoriesData: GenericProduct[] = [
     name: 'River City accessories',
     img: '100TShirt.JPEG',
     description: '',
+    price: 3
   },
   {
     id: 5,
@@ -237,6 +269,7 @@ export const accessoriesData: GenericProduct[] = [
     name: 'River City accessories',
     img: '100TShirt.JPEG',
     description: '',
+    price: 3
   },
   {
     id: 6,
@@ -244,6 +277,7 @@ export const accessoriesData: GenericProduct[] = [
     name: 'River City accessories',
     img: '100TShirt.JPEG',
     description: '',
+    price: 3
   },
   {
     id: 7,
@@ -251,6 +285,7 @@ export const accessoriesData: GenericProduct[] = [
     name: 'River City accessories',
     img: '100TShirt.JPEG',
     description: '',
+    price: 3
   },
   {
     id: 8,
@@ -258,5 +293,6 @@ export const accessoriesData: GenericProduct[] = [
     name: 'River City accessories',
     img: '100TShirt.JPEG',
     description: '',
+    price: 3
   }
 ];
